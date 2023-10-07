@@ -1,8 +1,8 @@
-.{
+/* .{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+} */
 body{
     background-color: white;
     font-family: 'poppins',sans-serif;
@@ -33,13 +33,13 @@ h3{
     letter-spacing: 5px;
 
 }
-.food-items{
+/* .food-items{
     display: grid;
     position: relative;
     grid-template-rows: auto 1fr;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0,0,0,0,1);
-}
+} */
 .food-items img{
     position: relative;
     width: 100%;
@@ -49,36 +49,46 @@ h1{
     grid-column: 1/-1;
     text-align: center;
 }
-.detais{
+/* .detais{
     padding: 20px 10px;
     display: grid;
     grid-template-rows: auto 1fr 50px;
-    grid-row-gap: 15px;
-}
-.detais-sub{
+    grid-row-gap: 15px; */
+/* } */
+/* .detais-sub{
     display: grid;
     grid-template-columns: auto auto;
-}
-.details-sub>h5{
+} */
+h5{
     text-align: center;
     font-weight: 600;
     font-size: 18px;
-    margin-left: -32px;
-    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 640px;
+    margin: auto;
+    grid-column: 1/-1;
+    text-align: center;
+
+
 }
 .price{
-    text-align: right;
+    text-align: center;
+   
 }
 
-.details>button{
-    text-align: center;
-    margin-left: 634px;
-    height: 41px;
-    width: 86px;
-    border-radius: 47px;
-    background-color:yellow;
-    color: black;
-    margin-bottom: 17px;
-    
-    padding: 8px;
+.button1{
+    /* text-align: center; */
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 13px;
+    border-radius: 8px;
+
+}
+button:hover{
+    background-color: red;
 }
